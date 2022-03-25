@@ -30,7 +30,7 @@ ada 3 jenis list:
           <dd>...</dd>
         </dl>
 
-### langkah langkah praktikum
+### langkah - langkah praktikum
 
 1.  buat struktur dasar `HTML`
 
@@ -71,3 +71,51 @@ maka akan tampil sebagai berikut
 maka akan tapil sebagai berikut
 
 ![06.png](img/06.png)
+
+## membuat tabel
+
+Penjelasan HTML table. Tabel (Table) adalah sebuah data tabular dalam bentuk grid yang terdiri dari kolom (column), baris (row) dan celll yang merupakan pertemuan antara kolom dan baris. HTML `<table>` element merepresentasikan data dengan lebih dari satu dimensi dalam bentuk sebuah tabel (table).
+
+tag yang ada di dalam table
+
+td (Table Data) : digunakan untuk membuat kolom dan disisipkannya data.
+tr ( Table Row) : digunakan untuk membuat baris table.
+th (Table Header) : fungsinya sama seperti tag td, tetapi terletak di baris pertama dan sebagai header dari table.
+
+### langkah - langkah praktikum
+
+1.  buat struktur dasar `HTML`
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+        </head>
+        <body>
+
+        </body>
+        </html>
+
+Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
+
+![07.png](img/07.png)
+
+Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan cellspacing pada tag table.
+
+    <table border="1" cellpadding="4" cellspacing="0">
+
+maka akan tampil sebagai berikut
+
+![08.png](img/08.png)
+
+2. Menggabungkan Sel Data
+   Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara horizontal).
+
+![09.png](img/09.png)
+
+maka kolom ke 2 akan menjadi satu baris
+
+![10.png](img/10.png)
