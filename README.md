@@ -119,3 +119,64 @@ maka akan tampil sebagai berikut
 maka kolom ke 2 akan menjadi satu baris
 
 ![10.png](img/10.png)
+
+## membuat form
+
+Form merupakan salah satu bentuk halaman web yang digunakan untuk menerima masukan dari pengguna, untuk selanjutnya masukan dari pengguna tersebut diolah menggunakan bahasa pemrograman web, baik secara server side scripting(misalkan PHP, JSP) ataupun client-side scripting (javascript). 
+
+Form di HTML dapat kita buat dengan tag `<form>` . Tag ini memiliki beberapa atribut yang harus diberikan, seperti: action untuk menentukan aksi yang akan dilakukan saat data dikirim; method metode pengiriman data.
+
+### langkah - langkah praktikum
+
+1.  membuat struktur dasar `HTML`
+
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>HTML Lanjutan</title>
+        </head>
+
+        <body>
+          <header>
+            <h1>Membuat Form</h1>
+          </header>
+        </body>
+
+        </html>
+
+Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
+
+![11.png](img/11.png)
+
+maka akan menampilkan form berikut
+
+![12.png](img/12.png)
+
+2. Menabahkan Style pada Form
+Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
+
+        <style>
+          form p>label {
+            display: inline-block;
+            width: 100px;
+          }
+
+          form input[type="text"],
+          form textarea {
+            border: 1px solid #197a43;
+          }
+
+          form input[type="submit"] {
+            border: 1px solid #197a43;
+            background-color: #197a43;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+          }
+        </style>
+
+![13.png](img/13.png)
