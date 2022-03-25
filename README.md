@@ -76,11 +76,11 @@ maka akan tapil sebagai berikut
 
 Penjelasan HTML table. Tabel (Table) adalah sebuah data tabular dalam bentuk grid yang terdiri dari kolom (column), baris (row) dan celll yang merupakan pertemuan antara kolom dan baris. HTML `<table>` element merepresentasikan data dengan lebih dari satu dimensi dalam bentuk sebuah tabel (table).
 
-tag yang ada di dalam table
+#### tag yang ada di dalam table
 
-td (Table Data) : digunakan untuk membuat kolom dan disisipkannya data.
-tr ( Table Row) : digunakan untuk membuat baris table.
-th (Table Header) : fungsinya sama seperti tag td, tetapi terletak di baris pertama dan sebagai header dari table.
+1. td (Table Data) : digunakan untuk membuat kolom dan disisipkannya data.
+2. tr ( Table Row) : digunakan untuk membuat baris table.
+3. th (Table Header) : fungsinya sama seperti tag td, tetapi terletak di baris pertama dan sebagai header dari table.
 
 ### langkah - langkah praktikum
 
