@@ -10,45 +10,51 @@
 </head>
 
 <body>
-<div class="container">
-  <form action="proses.php" method="post">
-    <fieldset class="forms">
-      <h1>Form Daftar</h1>
-      <p>
-        <label for="nama">Nama Depan</label>
-        <input type="text" id="nama" name="nama">
-      </p>
-      <p>
-        <label for="nama">Nama Belakang</label>
-        <input type="text" id="name" name="nama">
-      </p>
-      <p>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
-      </p>
+  <div class="container">
+    <form action="proses.php" method="post">
+      <fieldset class="forms">
+        <h1>Form Daftar</h1>
+        <div class="form-grup">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" id="nama" name="nama">
+          
+          <label for="nama">NIM</label>
+          <input type="number" id="name" name="nama">
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
 
-      <p>
-        <label for="provinsi">Provinsi</label>
-        <select id="provinsi" name="provinsi">
-          <option value="">Pilih Provinsi</option>
-          <option value="jawa">Jawa</option>
-          <option value="jawa timur">Jawa Timur</option>
-          <option value="jawa barat">Jawa Barat</option>
+
+
+
+
+        .
+        <label for="kelas">Prodi Teknik</label>
+        <select id="kelas" name="kelas">
+          <option value="">--Pilih Jurusan--</option>
+          <option value="informatika">Teknik Informatika</option>
+          <option value="arsitek">Teknik Arsitektur</option>
+          <option value="industri">Teknik Industri</option>
+          <option value="sipil">Teknik Sipil</option>
         </select>
-      </p>
 
-      <p class="jenis">
-        <label>Jenis Kelamin</label>
-        <input id="jk_l" type="radio" name="kelamin" value="L" />
-        <label for="jk_l">Laki-laki</label>
-        <input id="jk_p" type="radio" name="kelamin" value="P" />
-        <label for="jk_p">Perempuan</label>
-      </p>
+        <div class="jenis">
+          <p>Jenis Kelamin</p>
+          <label for="jk_l" class="jenis-kelamin">
+            <input id="jk_l" type="radio" name="kelamin" value="L" />
+            Laki-laki
+          </label>
+          <label for="jk_p" class="jenis-kelamin">
+            <input id="jk_p" type="radio" name="kelamin" value="P" />
+            Perempuan
+          </label>
+        </div>
 
-      <p><input type="submit" value="Login"></p>
-    </fieldset>
-  </form>
-</div>
+        <button class="daftar">daftar</button>
+      </fieldset>
+    </form>
+  </div>
 
 </body>
 
